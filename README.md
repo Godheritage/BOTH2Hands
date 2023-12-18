@@ -1,5 +1,8 @@
 # BOTH2Hands
 The official implementation of the paper "BOTH2Hands: Inferring 3D Hands from Both Text Prompts and Body Dynamics".
+<p float="left">
+  <img src="./readme/pipeline_v8.pdf" width="900" />
+</p>
 ## Code comming soon!
 Please star the project to get the latest news ⭐
 # BOTH57M Dataset
