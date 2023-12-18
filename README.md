@@ -3,7 +3,7 @@ The official implementation of the paper "BOTH2Hands: Inferring 3D Hands from Bo
 <p float="left">
   <img src="./readme/pipeline_v8.jpg" width="900" />
 </p>
-## Code comming soon!
+# Code comming soon!
 Please star the project to get the latest news ⭐
 # BOTH57M Dataset
 Please fill out our form for dataset [access](https://forms.gle/KdvBoD6aoBkiCxim6).
