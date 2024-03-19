@@ -17,3 +17,16 @@ Notes:
 (2) Once the license agreement is signed, we will give access to the data.
 # Licenses
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+# Citation 
+Please consider citing our work if you find this repo is useful for your projects.
+
+```bibtex
+@inproceedings{zhang24both,
+    title = {BOTH2Hands: Inferring 3D Hands from Both Text Prompts and Body Dynamics},
+    author = {Zhang, Wenqian and Huang, Molin and Zhou, Yuxuan and Zhang, Juze and Yu, Jingyi and Wang, Jingya and Xu, Lan},
+    booktitle = {Conference on Computer Vision and Pattern Recognition ({CVPR})},
+    year = {2024},
+}
+```
+
