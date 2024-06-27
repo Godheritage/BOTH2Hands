@@ -1,7 +1,7 @@
 # BOTH2Hands
 The official implementation of the paper "[BOTH2Hands: Inferring 3D Hands from Both Text Prompts and Body Dynamics](https://arxiv.org/abs/2312.07937)".
 
-For more results and details, please visit our [webpage](https://godheritage.github.io/).
+For more results and details, please visit our [webpage](https://godheritage.github.io/BOTH2Hands/).
 <img src="./readme/pipeline_v8.jpg" width="900" />
 # Code coming soon!
 Please star the project to get the latest news ⭐
