@@ -1,0 +1,49 @@
+mode: gen
+name: example_gen
+device: 0
+seed: 114514
+
+
+model:
+  d_model: 512
+  n_dec_layers: 4
+  n_head: 4
+  d_k: 256
+  d_v: 256
+  timesteps: 1000
+
+dataset:
+  window: 150
+  batch_size: 32
+  frame_rate: 30
+  have_hand: True
+  #['Body','Hand','BodyHand']
+  output_mode: BodyHand 
+  #Depending on your dataset, if your dataset is segmented into windows of a certain size 
+  #and the initial direction is consistent, set it to false.
+  need_fix_initface: False 
+
+datasets_to_process:
+  - ExampleDataset
+
+checkpoints_dir: './checkpoints'
+data_root_folder: './dataset'
+resume_ckpt_path: 'checkpoints/example/both2hands_example.ckpt'
+rewake: False
+save_top_k: 3
+save_last: False
+save_frequency: 5000
+num_epochs: 50000000
+#When to start style transfer training
+style_epochs: 2000 
+
+print_every: 10
+log_every: 100
+vis_every: 100000
+
+gen_times: 1
+
+validate_times: 10
+validate_batch_size: 32
+
+costume_promot: "Please input your prompt here." #defult NONE
