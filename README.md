@@ -101,4 +101,5 @@ Please consider citing our work if you find this repo is useful for your project
     year = {2024},
 }
 ```
-
+## Acknowledgment
+The code is built based on [EgoEgo](https://github.com/lijiaman/egoego_release). Please check their projects if you are interested in body conditioned motion diffusion.
