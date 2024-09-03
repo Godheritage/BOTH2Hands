@@ -35,7 +35,7 @@ Download [SMPL+H model](https://mano.is.tue.mpg.de/download.php), and extract fo
           - ......
 
 ## 2. Get data
-Please read [follow section](Get_dataset) to fetch full BOTH57M data. Then collect data like "dataset/ExampleDataset/ExampleDataset.p" using joblib, and put your dataset like this:
+Please read [follow section](#both57m-dataset) to fetch full BOTH57M data. Then collect data like "dataset/ExampleDataset/ExampleDataset.p" using joblib, and put your dataset like this:
 - dataset
     - ExampleDataset
         - ExampleDataset.p
@@ -73,7 +73,7 @@ Download [encoder checkpoints](https://drive.google.com/file/d/1nri9a-_3Rwd6eOzm
 python main.py --config eval.yaml
 ```
 
-# <a name="Get_dataset"></a>BOTH57M Dataset
+# BOTH57M Dataset
 <img src="./readme/gallery_full.png" width="800" />
 
 The dataset is available on [Here](https://drive.google.com/file/d/1PNC3We9HTUA-TvAIb_M4TKhVe_4Ztye3/view?usp=drive_link) and requires the password to unzip the file. Please carefully read, fill in the [license form](./readme/license.pdf), and send it to Wenqian Zhang (zhangwq2022@shanghaitech.edu.cn) and cc Lan Xu (xulan1@shanghaitech.edu.cn) to request access.

@@ -299,7 +299,7 @@ class BodyHandDataset(data.Dataset):
         meanstd_str = "bodyhand_processed_dataset_meanstd_"
         
         for dataset in self.datasets_to_process:
-            raw_data_path = pjoin(self.data_root_folder,dataset, "bodyhand_raw_dataset_"+str(dataset)+".p")
+            raw_data_path = pjoin(self.data_root_folder,dataset, str(dataset)+".p")
             proceed_data_str +=(str(dataset)+"_")
             meanstd_str +=(str(dataset)+"_")
             
