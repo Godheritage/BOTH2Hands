@@ -11,12 +11,12 @@ class TrainCompOptions():
         
         self.parser.add_argument('--lr', type=float, default=1e-4)
         #If you want the generated hands to match body movements, train using these parameter.
-        # self.parser.add_argument('--bodystyleloss_weight', type=float, default=0.8)
-        # self.parser.add_argument('--textstyleloss_weight', type=float, default=0.2)
+        self.parser.add_argument('--bodystyleloss_weight', type=float, default=0.8)
+        self.parser.add_argument('--textstyleloss_weight', type=float, default=0.2)
 
         #If you want to enhance text control over hands, train using these parameter.
-        self.parser.add_argument('--bodystyleloss_weight', type=float, default=0.2)
-        self.parser.add_argument('--textstyleloss_weight', type=float, default=0.8)
+        # self.parser.add_argument('--bodystyleloss_weight', type=float, default=0.2)
+        # self.parser.add_argument('--textstyleloss_weight', type=float, default=0.8)
         
         self.parser.add_argument('--config', default='eval.yaml')
         
