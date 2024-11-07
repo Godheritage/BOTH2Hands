@@ -381,7 +381,8 @@ class LitBodyhandMDM(pl.LightningModule):
                 text_descript = costume_prompt
                 text_descript = text_descript.lower().replace(",","").replace(".","")
                 
-                val_data_text = np.tile(text_descript, self.opt.batch_size)
+                bs,_,_ = val_motion.shape
+                val_data_text = np.tile(text_descript, bs)
                 embed_text = self.encode_text(val_data_text,val_motion.device)
                 raw_text = val_data_text
 
