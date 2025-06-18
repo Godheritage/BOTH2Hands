@@ -76,7 +76,7 @@ python main.py --config eval.yaml
 # BOTH57M Dataset
 <img src="./readme/gallery_full.png" width="800" />
 
-The dataset is available on [Here](https://drive.google.com/file/d/1PNC3We9HTUA-TvAIb_M4TKhVe_4Ztye3/view?usp=drive_link) and requires the password to unzip the file. Please carefully read, fill in the [license form](./readme/license.pdf), and send it to Wenqian Zhang (zhangwq2022@shanghaitech.edu.cn) and cc Lan Xu (xulan1@shanghaitech.edu.cn) to request access.
+The dataset is available on [Here](https://drive.google.com/file/d/1PNC3We9HTUA-TvAIb_M4TKhVe_4Ztye3/view?usp=drive_link) and requires the password to unzip the file. Please carefully read, fill in the [license form](./readme/license.pdf), and send it to Lan Xu (xulan1@shanghaitech.edu.cn) to request access.
 
 By requesting access to the content, you acknowledge that you have read this agreement, understand it, and agree to be bound by its terms and conditions. This agreement constitutes a legal and binding agreement between you and the provider of the protected system or content. The Visual & Data Intelligence(VDI) Center of ShanghaiTech University is the only owner of all intellectual property rights, including copyright, of BOTH57M DATASET, and VDI reserves the right to terminate your access to the dataset at any time.
 
